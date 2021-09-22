@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "PathKit",
-        "repositoryURL": "https://github.com/thebrowsercompany/PathKit",
+        "repositoryURL": "https://github.com/kikettas/PathKit",
         "state": {
-          "branch": "feature/fix-build-Xcode-13-RC",
-          "revision": "bd899badc81a3424f0e767b8e79f416ffe442248",
-          "version": null
+          "branch": null,
+          "revision": "a022ca66c83c0ac7ed48320d8caf42d5f9e1240b",
+          "version": "1.0.1"
         }
       },
       {
