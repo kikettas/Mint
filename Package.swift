@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.4
 
 import PackageDescription
 
@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "MintKit", targets: ["MintKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/thebrowsercompany/PathKit", branch: "feature/fix-build-Xcode-13-RC"),
+        .package(url: "https://github.com/thebrowsercompany/PathKit", .branch("feature/fix-build-Xcode-13-RC")),
         .package(url: "https://github.com/onevcat/Rainbow.git", from: "3.1.0"),
         .package(url: "https://github.com/jakeheis/SwiftCLI.git", from: "6.0.3"),
         .package(url: "https://github.com/mxcl/Version.git", from: "1.1.0")
